@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.reactnativenavigation.NavigationApplication;
+import com.reactnativenavigation.R;
 import com.reactnativenavigation.react.ReactDevPermission;
 
 public abstract class SplashActivity extends AppCompatActivity {
@@ -66,7 +67,7 @@ public abstract class SplashActivity extends AppCompatActivity {
      */
     @LayoutRes
     public int getSplashLayout() {
-        return 0;
+        return R.layout.splash;
     }
 
     /**
